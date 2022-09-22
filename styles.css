@@ -109,11 +109,11 @@ a{
 .dropdown:hover .dropbtn {
  
 }
-@media (min-width: 640px) {
+@media (min-width: 800px) {
     table.Desktop { display: block }
 	table.Mobile {display: none}
 }
-@media (max-width: 640px) {
+@media (max-width: 800px) {
     table.Desktop { display: none }
 	table.Mobile {display: block}
 }

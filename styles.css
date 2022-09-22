@@ -54,7 +54,7 @@ a{
 #timer {
 	margin: auto;
 	width: 100%;
-	heigth: 50%;
+	heigth: 100%;
 	background-size: cover;
 	background-image: url("./Src/GifMondo.gif");
 	  background-position: center;

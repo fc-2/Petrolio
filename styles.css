@@ -55,7 +55,7 @@ a{
 	margin: auto;
 	width: 100%;
 	
-	background-size: contain;
+	background-size: cover;
 	background-image: url("./Src/GifMondo.gif");
 	  background-position: center;
 	background-repeat: no-repeat;

@@ -87,26 +87,19 @@ a{
 	padding:0;
 		height: 100%;
 			 background-position: center;
-			/* background-size: 100%,100%; */
-			background-size: cover;
+			background-size: auto;
 		background-image: url("./Src/SplashPellicano.jpg");
-		background-repeat: no-repeat;
-		
-		
+		background-repeat: no-repeat;	
 }
 #timer {
 	margin: auto;
 	width: 100%;
-	height: 100%;
+	height: 50%;
 	background-size: cover;
 	background-image: url("./Src/GifMondo.gif");
 	  background-position: center;
 	background-repeat: no-repeat;
 }
-
-/* ----------------------------------------------------------- */
-
-/* Style The Dropdown Button */
 
 @media (min-width: 800px) {
     table.Desktop { display: block }

@@ -101,10 +101,7 @@ a{
 	background-repeat: no-repeat;
 }
 
-@media (min-width: 800px) {
-    table.Desktop { display: block }
-	table.Mobile {display: none}
-}
+
 @media (max-width: 800px) {
     table.Desktop { display: none }
 	table.Mobile {display: block}

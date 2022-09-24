@@ -1,17 +1,26 @@
 <head>
 		<title>Petrolio</title>
-		<link href="styles.css" rel="stylesheet">
-		<script src="PetrolioScript.js"></script>
+		<link href="./styles.css" rel="stylesheet">
+		<script src="./PetrolioScript.js"></script>
 		 <link rel="icon" href="Src/LogoPetrolio@0.5x.png">
-</head>
+				<!-- Google tag (gtag.js) -->
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0JX4973NC"></script>
+				<script>
+				  window.dataLayer = window.dataLayer || [];
+				  function gtag(){dataLayer.push(arguments);}
+				  gtag('js', new Date());
+
+				  gtag('config', 'G-X0JX4973NC');
+				</script>
+	</head>
 
 <body>
-		<div class="header" id="headerPetrolio" onclick="topFunction()">
+			<div class="header" id="headerPetrolio" onclick="topFunction()">
 			<div class="dropdown">
 					<div class="dropbtn">
 					<div class="dropdown-content">
-						<a href="Index.html">Home Page </a>
-						<a href="Index.html#Articoli">Articoli </a>
+						<a href="index.html">Home Page </a>
+						<a href="index.html#Articoli">Articoli </a>
 						<a href="#">Documentazione </a>
 					</div>
 				</div>
@@ -24,7 +33,7 @@
 						width: 49%;
 						background-position: top right;
 						background-size: cover;
-						background-image: url('Src/ArticoloSiccita.jpg');
+						background-image: url('./Src/ArticoloSiccita.jpg');
 						background-repeat: no-repeat;
 						display: inline-block;
 						position: absolute" >
